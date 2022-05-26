@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+#one header {
+    background-image: url(greece.png);
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.container .nav img,
+h3 {
+    display: inline-block;
+}
+
+.container .nav h3 {
+    font-size: 32px;
+    letter-spacing: 1px;
+    color: #f4f3ee;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#one .search h1 {
+    font-size: 52px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding-top: 270px;
+}
+
+#one .search label {
+    position: relative;
+}
+
+#one .search label input{
+    width: 400px;
+    height: 40px;
+    padding: 0 15px;
+    margin-top: 30px;
+    margin-bottom: 206px;
+    margin-left: 235px;
+    outline: none;
+    border: none;
+}
+
+#one .search label button{
+    position: absolute;
+    margin-top: 30px;
+    margin-bottom: 206px;
+    height: 40px;    
+}
+
+/* #search label  {
+   margin: auto;
+   margin-left: 276px;
+   margin-top: 100px;
+    
+}  */
+
+/* #search input {
+    padding: 15px 15px;
+    width: 328px;
+    border: none;
+    margin-bottom: 310px;
+    outline: none;
+}  */
+
+#one .search input::placeholder {
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #8b8b8b;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    outline: none;
+}
+
+#one .search button {
+    background-color: #fd4f32;
+    width: 120px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding: 12px;
+    outline: none;
+    border: none;
+}
+
+#two {
+    background-color: #eeeeee;
+}
+
+#two .continent {
+    padding-bottom: 80px;
+}
+
+#two .areas .continent div {
+    display: inline-block;
+    margin: auto;
+    margin-left: 10px;
+}
+
+#two .australia {
+    background-color: #ffffff;
+    width: 230px;
+}
+
+#two .australia img {
+    width: 230px;
+    height: 200px;
+}
+
+#two .areas h3 {
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #323232;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    text-align: right;
+    padding-top: 15px;
+    padding-bottom: 17px;
+}
+
+#two .areas h4 {
+    font-size: 15px;
+    letter-spacing: 0px;
+    color: #8b8b8b;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 16px;
+    padding-bottom: 36px;
+}
+
+#two .australia p {
+    width: 204px;
+    height: 75px;
+    font-size: 13px;
+    line-height: 19px;
+    color: #696969;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    /* text-align: center; */
+    margin-left: 10px;
+}
+
+#two .australia h3 {
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #323232;
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 10px;
+}
+
+#three .information div {
+    display: inline-block;
+    width: 285px;
+    margin-left: 20px;
+}
+
+#three .container h1 {
+    font-size: 52px;
+    letter-spacing: 2px;
+    color: #323232;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 82px;
+}
+
+#three .information h3 {
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #323232;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 67px;
+    padding-bottom: 22px;
+}
+
+#three .information p {
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 22px;
+    color: #8b8b8b;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#three .container .subscribe h3 {
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #323232;
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    margin-left: 325px;
+}
+
+#three .subscribe input {
+    width: 330px;
+    height: 38px;
+    background-color: #eeeeee;
+    border: none;
+    outline: none;
+    margin-left: 250px;
+}
+
+#three .subscribe input::placeholder {
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #8b8b8b;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left
+}
+
+#three .subscribe button {
+    width: 150px;
+    height: 38px;
+    background-color: #fd4f32;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-align: center;
+    border: none;
+    outline: none;
+}
